@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIP CALCULATOR</title>
+    <meta name="description" content="tip Calculator,tip checker">
+    <meta name="author" content="MAAZ AZHER">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form>
+        <h1>TIP CALCULATOR</h1>
+        <div>
+            <br />
+            <p>HOW MUCH WAS YOUR BILL</p>
+            <input type="number" name="bill" id="bill">
+            <br />
+            <p>HOW WAS YOUR SERVICE?</p>
+            <select>
+                <option style="color:red;">- - - -</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>satisfactory</option>
+                <option>Bad</option>
+            </select>
+            <br />
+            <p>HOW MANY PEOPLE ARE SHARING THE BILL?
+                <input type="number" name="persons" id="persons">
+                <br />
+                <input type="button" value="Calculate" name="Calculate" onclick="calc()">
+        </div>
+        <h3 id="tip"></h3>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    form {
+        min-width: 80%;
+    }
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1532022900249-74610fde3038?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80');
+    background-size: cover;
+}
+
+form {
+    width: 40%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    background: #F86F05;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+form div {
+    width: 100%;
+    background: white;
+    margin: auto;
+}
+
+form div input {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+form div select {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+form div input[type="button"] {
+    background: #F86F05;
+    color: white;
+    font-size: 20px;
+}
+
+form p {
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+}
+
+form h3 {
+    padding: 10px;
+    margin: 10px;
+}
